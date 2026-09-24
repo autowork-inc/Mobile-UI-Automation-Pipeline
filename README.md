@@ -6,4 +6,4 @@ The system reads task payloads from a local Excel file using openpyxl and execut
 Because mobile networks and apps are inherently flaky, I had to build in a lot of resilience. I wrote a network manager module that physically interacts with Android's system settings via ADB to toggle Airplane mode, hard-reset Wi-Fi, and cycle VPN connections to test under different network conditions. There is also a file management module that handles pushing media to the device, clearing OS-level thumbnail caches, and using SQL commands to register the new files directly into the Android MediaStore database so the target app sees them instantly
 
 ## Tech Stack
-**Python, UIAutomator2, ADB, OpenCV, EasyOCR, Gemini Vision API, openpyxl, pyotp**
+**Python 3.11, UIAutomator2, ADB, OpenCV, EasyOCR, Gemini Vision API, openpyxl, pyotp**
