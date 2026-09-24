@@ -1,5 +1,3 @@
-# Mobile UI Automation Pipeline
-
 ## Overview
 This is an Android automation orchestrator I built using Python, ADB, and UIAutomator2. I needed a reliable way to automate interactions and upload media within a complex mobile app that doesn't provide a public API and constantly changes its UI layout. Due to NDA, the exact interaction scripts are private, but here is a technical overview of how the pipeline works
 
